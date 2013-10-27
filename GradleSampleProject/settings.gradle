@@ -1,0 +1,1 @@
+include ':GradleSample', ':libraries:sliding-menu'

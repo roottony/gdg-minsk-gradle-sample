@@ -1,0 +1,27 @@
+group = "com.gdgminsk.mylib"
+version = "1.0"
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.6.3'
+    }
+}
+apply plugin: 'android-library'
+
+dependencies {
+    // android-support is obtained from local android-support-repository
+    compile 'com.android.support:support-v4:18.0.0'
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 18
+    }
+}

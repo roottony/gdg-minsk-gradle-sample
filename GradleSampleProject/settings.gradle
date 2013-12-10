@@ -1,1 +1,1 @@
-include ':GradleSample', ':libraries:sliding-menu'
+include ':GradleSample', ':libraries:my-lib'

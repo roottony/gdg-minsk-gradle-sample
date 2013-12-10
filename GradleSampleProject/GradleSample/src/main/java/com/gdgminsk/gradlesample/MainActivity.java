@@ -19,7 +19,7 @@ public class MainActivity extends SherlockFragmentActivity {
         Log.d(TAG, "Json: " + gson.toJson("Hello Gdg minsk"));
 
         // Use our library project dependency
-        new HelloLibraryProject().sayHello();
+        new HelloLibraryProject().sayHello(this);
     }
 
 }

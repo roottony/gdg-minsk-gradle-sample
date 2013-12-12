@@ -3,5 +3,8 @@
 
     <string name="app_name">Gradle Sample</string>
     <string name="hello_world">Hello world!</string>
+    <string name="variable_to_override_by_flavor">This should be overridden in flavors</string>
+    <string name="variable_to_override_by_build_type">This should be overridden in build types</string>
+
 
 </resources>

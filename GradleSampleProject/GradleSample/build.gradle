@@ -1,3 +1,7 @@
+/*
+ * buildscript section is about the build script itself.
+ * All dependencies and repositories declared here have no impact on main project.
+ */
 buildscript {
     repositories {
         mavenCentral()
@@ -33,6 +37,18 @@ android {
     buildTypes {
         debug {
             packageNameSuffix ".debug"
+            zipAlign = true
+        }
+    }
+
+    productFlavors {
+        free {
+            buildConfig "public static final boolean ADS_ENABLED = true;"
+        }
+
+        paid {
+            packageName 'com.gdgminsk.gradlesample.paid'
+            buildConfig "public static final boolean ADS_ENABLED = false;"
         }
     }
 }

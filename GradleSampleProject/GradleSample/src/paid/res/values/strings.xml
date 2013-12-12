@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="variable_to_override_by_flavor">This was overridden in PAID flavor</string>
+    <string name="app_name">Paid Gradle Sample</string>
+
+</resources>

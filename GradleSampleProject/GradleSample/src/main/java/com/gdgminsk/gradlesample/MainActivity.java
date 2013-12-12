@@ -20,6 +20,14 @@ public class MainActivity extends SherlockFragmentActivity {
 
         // Use our library project dependency
         new HelloLibraryProject().sayHello(this);
+
+        // Use custom BuildConfig variable
+        Log.d(TAG, "Ads enabled: " + BuildConfig.ADS_ENABLED);
+
+        // Use overridden resources
+        Log.d(TAG, "Value overridden in flavor: " + getString(R.string.variable_to_override_by_flavor));
+        Log.d(TAG, "Value overridden in build type: " + getString(R.string.variable_to_override_by_build_type));
+
     }
 
 }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="variable_to_override_by_flavor">This was overridden in FREE flavor</string>
+
+</resources>

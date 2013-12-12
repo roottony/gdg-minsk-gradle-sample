@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="variable_to_override_by_build_type">This was overridden in RELEASE build type</string>
+
+</resources>
